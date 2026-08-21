@@ -1,0 +1,8 @@
+# pnpm workspace + build-script approvals.
+# `allowBuilds` lets pnpm run the postinstall scripts that download the
+# Electron binary (electron) and Windows installer helpers
+# (electron-winstaller). Without this, `pnpm install` skips them and
+# `electron .` fails with "Electron failed to install correctly".
+allowBuilds:
+  electron: true
+  electron-winstaller: true

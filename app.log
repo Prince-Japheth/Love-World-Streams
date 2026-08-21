@@ -1,0 +1,56 @@
+$ electron .
+(node:6520) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `Electron --trace-deprecation ...` to show where the warning was created)
+DOWNLOADS DIR IS: /Users/japheth/Downloads/LoveWorld Streams
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[NAV-FULL] https://www.youtube.com/@WatchPastorChris/featured
+[LoveWorld] preloading section: videos
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[NAV-FULL] https://www.youtube.com/@WatchPastorChris/videos
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] content loaded: https://www.youtube.com/@WatchPastorChris/featured
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] preloading section: streams
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] content loaded: https://www.youtube.com/@WatchPastorChris/videos
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[NAV-FULL] https://www.youtube.com/@WatchPastorChris/streams
+(electron) 'session.getPreloads' is deprecated and will be removed. Please use 'session.getPreloadScripts' instead.
+(electron) 'session.setPreloads' is deprecated and will be removed. Please use 'session.registerPreloadScript' instead.
+Adblocker enabled for session
+[LoveWorld] preloading section: podcasts
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] content loaded: https://www.youtube.com/@WatchPastorChris/streams
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] preloading section: playlists
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[NAV-FULL] https://www.youtube.com/@WatchPastorChris/podcasts
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[NAV-FULL] https://www.youtube.com/@WatchPastorChris/playlists
+[LoveWorld] content loaded: https://www.youtube.com/@WatchPastorChris/playlists
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] content loaded: https://www.youtube.com/@WatchPastorChris/podcasts
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/featured | streaming: false
+[LoveWorld] state: /@WatchPastorChris/streams | streaming: false
+[LoveWorld] state: /@WatchPastorChris/videos | streaming: false
+[LoveWorld] state: /@WatchPastorChris/videos | streaming: false
+[NAV-SPA] https://www.youtube.com/@WatchPastorChris/videos
+[LoveWorld] state: /@WatchPastorChris/videos | streaming: false
+[LoveWorld] state: /@WatchPastorChris/videos | streaming: false
+[LoveWorld] state: /@WatchPastorChris/videos | streaming: false
+[NAV-SPA] https://www.youtube.com/watch?v=Wb-HnHqB-Fk&t=44s
+[LoveWorld] state: /watch | streaming: true
+[LoveWorld] state: /watch | streaming: true
+[LoveWorld] state: /watch | streaming: true
+[LoveWorld] state: /watch | streaming: true

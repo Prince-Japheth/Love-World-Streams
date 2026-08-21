@@ -1,0 +1,55 @@
+{
+  "name": "loveworld-streams",
+  "version": "0.1.0",
+  "description": "LoveWorld Streams \u2014 Christ Embassy (LoveWorld Nation) services, streams and livestreams from YouTube. Watch live, and queue downloads that start automatically once a livestream ends.",
+  "author": "LoveWorld Nation",
+  "private": true,
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "node init && electron .",
+    "dev": "node init && electron .",
+    "dist": "electron-builder --publish never",
+    "dist:mac": "electron-builder --mac zip dmg --arm64 --x64 --publish never"
+  },
+  "devDependencies": {
+    "electron": "^40.6.0",
+    "electron-builder": "^26.8.1"
+  },
+  "build": {
+    "appId": "com.loveworld.streams",
+    "productName": "LoveWorld Streams",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "afterPack": "build/after-pack.js",
+    "files": [
+      "electron/**/*",
+      "renderer/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "bin",
+        "to": "bin",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "artifactName": "LoveWorldStreams-${os}-${arch}.${ext}",
+    "mac": {
+      "target": [
+        "zip",
+        "dmg"
+      ],
+      "category": "public.app-category.news",
+      "identity": null,
+      "darkModeSupport": true
+    }
+  },
+  "dependencies": {
+    "@cliqz/adblocker-electron": "^1.34.0",
+    "cross-fetch": "^4.1.0"
+  }
+}

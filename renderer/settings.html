@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings — LoveWorld Streams</title>
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+    <main>
+        <h1>Settings</h1>
+        <p class="subhead">Downloads need the yt-dlp binary. See bin/README.md for setup.</p>
+
+        <div class="section-label">Downloads</div>
+        <div class="set-row">
+            <div>
+                <div class="k">yt-dlp binary path</div>
+                <div class="d">Leave empty to auto-detect (bundled bin/yt-dlp, then PATH).</div>
+            </div>
+            <input type="text" id="ytdlp-path" placeholder="/opt/homebrew/bin/yt-dlp">
+        </div>
+        <div class="set-row">
+            <div>
+                <div class="k">Save downloads to</div>
+                <div class="d">Empty = your app downloads folder.</div>
+            </div>
+            <div class="inline-field">
+                <input type="text" id="dl-dir" placeholder="~/Movies/LoveWorld">
+                <button class="btn ghost" id="browse-dir" type="button">Browse…</button>
+            </div>
+        </div>
+        <div class="set-row">
+            <div>
+                <div class="k">Livestream check interval</div>
+                <div class="d">How often queued livestreams are checked for "ended".</div>
+            </div>
+            <input type="text" id="poll-ms" placeholder="300000">
+        </div>
+
+        <div class="section-label">Status</div>
+        <div id="status" class="hint" style="color:var(--muted)">Checking…</div>
+
+        <div style="margin-top: 24px">
+            <button class="btn primary" id="save">Save</button>
+            <button class="btn ghost" id="open-dir">Open downloads folder</button>
+        </div>
+    </main>
+    <script src="settings.js"></script>
+</body>
+</html>

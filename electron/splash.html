@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>LoveWorld Streams</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(160deg, #0b1b3f 0%, #08122e 55%, #050b1f 100%);
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+            color: #fff;
+            overflow: hidden;
+            -webkit-app-region: drag;
+            user-select: none;
+        }
+        .mark {
+            width: 150px;
+            height: auto; /* keep the logo's own aspect ratio */
+            border-radius: 0;
+            object-fit: contain;
+        }
+        .title {
+            margin-top: 22px;
+            font-size: 17px;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+        }
+        .sub {
+            margin-top: 5px;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.55);
+        }
+        .bar {
+            margin-top: 28px;
+            width: 160px;
+            height: 3px;
+            border-radius: 2px;
+            background: rgba(255, 255, 255, 0.12);
+            overflow: hidden;
+            position: relative;
+        }
+        .bar > i {
+            position: absolute;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            border-radius: 2px;
+            background: linear-gradient(90deg, transparent, #d4af37, transparent);
+            animation: sweep 1.6s ease-in-out infinite;
+        }
+        @keyframes sweep {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <img src="./assets/splash-logo.png" class="mark" alt="LoveWorld Streams">
+    <div class="title">LoveWorld Streams</div>
+    <div class="sub">Christ Embassy · LoveWorld Nation</div>
+    <div class="bar"><i></i></div>
+</body>
+</html>
