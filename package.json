@@ -6,8 +6,8 @@
   "private": true,
   "main": "electron/main.js",
   "scripts": {
-    "start": "node init && electron .",
-    "dev": "node init && electron .",
+    "start": "electron .",
+    "dev": "electron .",
     "dist": "electron-builder --publish never",
     "dist:mac": "electron-builder --mac zip dmg --arm64 --x64 --publish never"
   },
